@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#121212" />
+    <meta name="description" content="CRRC Sifang PHM 3.0 Design System Manager HTML demonstration" />
+    <title>CRRC Sifang PHM 3.0 Design System Manager</title>
+    <link rel="icon" href="assets/plugin-icon.png?v=0.7.7" type="image/png" />
+    <link rel="preload" href="assets/css/site.css?v=0.7.7" as="style" />
+    <link rel="stylesheet" href="assets/css/site.css?v=0.7.7" />
+    <script src="assets/js/site.js?v=0.7.7" defer></script>
+  </head>
+  <body>
+    <main class="site-shell">
+      <section id="passwordGate" class="password-gate" aria-label="Password required">
+        <input id="passwordInput" type="password" autocomplete="off" placeholder="Password" aria-label="Password" autofocus />
+      </section>
+
+      <section id="demoStage" class="demo-stage" aria-label="Design System Manager HTML Demo" hidden>
+        <div class="plugin-window">
+          <iframe id="pluginFrame" title="CRRC Sifang PHM 3.0 Design System Manager" loading="eager"></iframe>
+        </div>
+      </section>
+    </main>
+    <noscript>此演示需要启用 JavaScript。</noscript>
+  </body>
+</html>
